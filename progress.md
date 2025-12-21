@@ -1,124 +1,31 @@
+# 📈 Progress Log – DSA Training
+
+This file records **weekly reflections** on my DSA practice.
+The focus is on **thinking quality, mistakes, and improvement**, not raw problem count.
 
 ---
 
-## 🧠 Problem File Standard
+## Day 1 (Start Date: 2025-01-20)
 
-Every problem file follows a strict structure:
+### Problem Solved
+- Permutations — Backtracking  
+  Platform: LeetCode 46
 
-- Problem statement (short & precise)
-- Approach / intuition
-- Edge cases
-- Time & space complexity
-- Clean, readable implementation
+### What I Learned
+- Understood the basic backtracking pattern:
+  - Choose
+  - Explore (recursive call)
+  - Unchoose (backtrack)
+- Clear visualization of recursion tree helped avoid confusion
 
-Readable code > clever code.
+### Mistakes / Observations
+- Initially confused about when to backtrack (remove element)
+- Had to consciously ensure list state is restored after recursion
 
----
+### Corrections Applied
+- Always undo the choice after the recursive call
+- Dry-ran the recursion tree for small input before coding
 
-## 🔗 Auto-Linked Problem Index (Live)
-
-Each solved problem is **directly linked** to its original source  
-(LeetCode / GeeksforGeeks) and its **local implementation**.
-
-### 🔁 Backtracking
-
-| # | Problem | Platform | Solution |
-|---|--------|----------|----------|
-| 1 | Permutations | [LeetCode 46](https://leetcode.com/problems/permutations/) | [Code](./Backtracking/permutations.java) |
-| 2 | Subsets | [LeetCode 78](https://leetcode.com/problems/subsets/) | [Code](./Backtracking/subsets.java) |
-
----
-
-### 🔢 Arrays
-
-| # | Problem | Platform | Solution |
-|---|--------|----------|----------|
-| 1 | Two Sum | [LeetCode 1](https://leetcode.com/problems/two-sum/) | [Code](./Arrays/two_sum.java) |
-| 2 | Maximum Subarray | [LeetCode 53](https://leetcode.com/problems/maximum-subarray/) | [Code](./Arrays/max_subarray.java) |
-
-> This table grows **daily**. No solved problem stays undocumented.
-
----
-
-## 📊 Progress Tracker (Proof of Consistency)
-
-### 📈 Category Coverage
-
-| Category | Problems Solved |
-|--------|-----------------|
-| Arrays | 5 |
-| Strings | 3 |
-| Recursion | 4 |
-| Backtracking | 2 |
-| Dynamic Programming | 1 |
-| **Total** | **15** |
-
----
-
-### 🗓 Daily Practice Log
-
-| Date | Problems Solved | Category |
-|-----|----------------|----------|
-| 2025-01-20 | Permutations | Backtracking |
-| 2025-01-19 | Subsets | Backtracking |
-| 2025-01-18 | Two Sum | Arrays |
-
-Consistency is tracked, not assumed.
-
----
-
-## 🔥 GitHub Activity Signals
-
-- 📌 Regular commits (daily/near-daily)
-- 📌 Clean folder structure
-- 📌 Meaningful commit messages
-- 📌 Progressive difficulty
-
-This repository is designed to **age well**.
-
----
-
-## 🧩 Categories (Expanding)
-
-- Arrays  
-- Strings  
-- Recursion  
-- Backtracking  
-- Linked List  
-- Stack & Queue  
-- Binary Search  
-- Trees  
-- Graphs  
-- Dynamic Programming  
-
-Advanced topics will be added after fundamentals solidify.
-
----
-
-## 🧪 Future Enhancements (Planned)
-
-- GitHub Actions for **daily streak tracking**
-- Difficulty tags (Easy / Medium / Hard)
-- Notes folder for patterns & mistakes
-- Interview-focused revision sheets
-- Auto-updated stats via scripts
-
-No rush. Depth first.
-
----
-
-## 📜 Philosophy
-
-DSA is not about solving everything.  
-It is about **solving consistently and thinking clearly**.
-
----
-
-## 📌 Status
-
-🟢 Actively maintained  
-📈 Updated after every meaningful solve  
-
----
-
-**“Discipline beats motivation. Always.”**
+### Next Steps
+- Solve **Subsets** to reinforce backtracking fundamentals
+- Focus on writing base cases before recursive logic
