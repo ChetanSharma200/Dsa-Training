@@ -24,3 +24,8 @@ Every commit represents *actual work done*.
 Each DSA category has its own folder.  
 Each problem has **one dedicated source file**.
 
+## 📈 Learning Trajectory
+
+Weekly reflections and learning corrections are documented here:  
+👉 [PROGRESS.md](./PROGRESS.md)
+
