@@ -70,4 +70,30 @@ Category: Arrays → Prefix Sum + Hashing
 
 ### Next Steps
 - Revise prefix sum patterns once more without looking at code.
+
+## Day 3 (2025-01-22)
+
+### Problem Solved
+Category: Arrays → Prefix Sum
+
+- Count Number of Vowels in a Range  
+  Platform: LeetCode  
+  Core Idea: Prefix Sum for range queries
+
+### What I Learned
+- Prefix sums are effective for answering multiple range queries in O(1) time after preprocessing.
+- Precomputing cumulative counts simplifies repeated queries.
+
+### Mistakes / Observations
+- Initially thought a loop per query was acceptable before realizing the constraint impact.
+- Had to be careful with index boundaries while building the prefix array.
+
+### Corrections Applied
+- Built a prefix array where each index stores vowel count up to that position.
+- Used prefix[right] − prefix[left−1] logic for queries.
+
+### Next Steps
+- Practice more range-query problems.
+- Revise prefix sum edge cases involving boundaries.
+
 - Move toward slightly harder array problems involving constraints or optimizations.
