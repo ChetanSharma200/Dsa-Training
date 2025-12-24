@@ -97,3 +97,37 @@ Category: Arrays → Prefix Sum
 - Revise prefix sum edge cases involving boundaries.
 
 - Move toward slightly harder array problems involving constraints or optimizations.
+
+## Day 4 (2025-01-23)
+
+### Problems Solved
+
+Category: Backtracking
+- N-Queens  
+  Platform: LeetCode  
+  Core Idea: Backtracking with constraint checking (columns, diagonals)
+
+Category: Arrays → Prefix Sum
+- Find the Middle Index in Array (LeetCode 1991)  
+  Core Idea: Prefix Sum comparison (left sum vs right sum)
+
+- Find Pivot Index  
+  Platform: LeetCode  
+  Core Idea: Prefix Sum / Running Sum optimization
+
+### What I Learned
+- Backtracking problems require early pruning to avoid exponential blow-up.
+- Maintaining separate structures for column and diagonal constraints simplifies N-Queens.
+- Prefix sums can be reduced to a single running sum for pivot-style problems.
+
+### Mistakes / Observations
+- Initially underestimated diagonal indexing in N-Queens.
+- For pivot index problems, recalculating sums repeatedly is inefficient and unnecessary.
+
+### Corrections Applied
+- Used sets/arrays to track occupied columns and diagonals in N-Queens.
+- Switched from nested loops to prefix/running sum logic for array problems.
+
+### Next Steps
+- Revisit N-Queens to optimize space (bitmasking).
+- Solve more pivot-style problems to solidify prefix-sum intuition.
