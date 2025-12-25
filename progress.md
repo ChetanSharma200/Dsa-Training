@@ -131,3 +131,30 @@ Category: Arrays → Prefix Sum
 ### Next Steps
 - Revisit N-Queens to optimize space (bitmasking).
 - Solve more pivot-style problems to solidify prefix-sum intuition.
+
+  ## Day 5 (2025-01-24)
+
+### Problems Solved
+
+Category: Backtracking
+- Rat in a Maze  
+  Platform: GeeksforGeeks  
+  Core Idea: Backtracking with path exploration (D, L, R, U) and visited tracking
+
+### What I Learned
+- Backtracking is about systematic exploration with rollback, not brute force.
+- Direction order matters when the output requires lexicographical paths.
+- Marking and unmarking visited cells is essential to avoid cycles.
+
+### Mistakes / Observations
+- Initially forgot to unmark the visited cell during backtracking.
+- Boundary and blocked-cell checks must happen before recursive calls.
+
+### Corrections Applied
+- Added proper visited matrix handling (mark before recursion, unmark after).
+- Centralized safety checks to reduce redundant conditions.
+
+### Next Steps
+- Compare Rat in a Maze with N-Queens to identify common backtracking patterns.
+- Attempt variations like counting paths or shortest-path constraints.
+
