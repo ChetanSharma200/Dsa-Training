@@ -158,3 +158,31 @@ Category: Backtracking
 - Compare Rat in a Maze with N-Queens to identify common backtracking patterns.
 - Attempt variations like counting paths or shortest-path constraints.
 
+## Day 6 (2025-01-25)
+
+### Problems Solved
+
+Category: Prefix Sum
+- LeetCode 2483 — Minimum Penalty for a Shop  
+  Platform: LeetCode  
+  Core Idea: Prefix sum with cost transformation (penalty minimization)
+
+### What I Learned
+- Prefix sums are not just about sums; they model *cumulative cost*.
+- Converting a string problem into a numerical cost array simplifies reasoning.
+- Optimal decision points often emerge naturally when prefix and suffix costs meet.
+
+### Mistakes / Observations
+- Initially tried brute-force checking for every closing hour.
+- Missed that future penalties can be precomputed as a suffix prefix-sum.
+
+### Corrections Applied
+- Precomputed penalty for staying open (Y after close).
+- Tracked minimum total penalty while scanning once.
+
+### Key Insight
+- Many “string + decision” problems are secretly prefix-sum optimization problems.
+
+### Next Steps
+- Solve more prefix + greedy hybrids.
+- Compare this problem with stock-buy/sell and partition-style problems.
